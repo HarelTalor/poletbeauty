@@ -35,16 +35,16 @@ export default function Header() {
             <div className="relative h-12 w-12 md:h-14 md:w-14 transition-transform group-hover:scale-105 duration-300">
                <img 
                  src="/images/logo_circle.png" 
-                 alt="Shaked Tayeb Logo" 
+                 alt="Polet Beauty Logo" 
                  className="w-full h-full object-contain" 
                />
             </div>
             <div className="flex flex-col items-start translate-y-[1px]">
               <span className={`text-xl md:text-2xl font-serif font-bold tracking-tighter leading-tight ${scrolled ? "text-primary" : "text-white"}`}>
-                SHAKED TAYEB
+                POLET BEAUTY
               </span>
-              <span className={`text-[10px] md:text-[12px] tracking-[0.15em] font-serif font-medium uppercase ${scrolled ? "text-muted-foreground" : "text-white/90"}`}>
-                קוסמטיקאית מוסמכת
+              <span className={`text-[10px] md:text-[12px] tracking-[0.05em] font-serif font-medium uppercase ${scrolled ? "text-muted-foreground" : "text-white/90"}`}>
+                קוסמטיקאית ומאפרת מקצועית
               </span>
             </div>
           </Link>

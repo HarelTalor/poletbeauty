@@ -9,20 +9,20 @@ export default function Footer() {
             <Link to="/" className="flex flex-col items-center md:items-start gap-4 mb-4 group transition-transform hover:scale-105">
               <img 
                 src="/images/logo_circle.png" 
-                alt="Shaked Tayeb Logo" 
+                alt="Polet Beauty Logo" 
                 className="h-20 w-20 object-contain" 
               />
               <div className="flex flex-col items-center md:items-start">
                 <span className="text-2xl font-serif font-bold tracking-tighter text-white leading-tight">
-                  SHAKED TAYEB
+                  POLET BEAUTY
                 </span>
-                <span className="text-[11px] tracking-[0.25em] font-serif text-white/60 uppercase">
-                   קוסמטיקאית מוסמכת
+                <span className="text-[11px] tracking-[0.1em] font-serif text-white/60 uppercase">
+                   קוסמטיקאית ומאפרת מקצועית
                 </span>
               </div>
             </Link>
             <p className="text-white/60 max-w-md leading-relaxed">
-              קוסמטיקאית מוסמכת ושחזור אסתטי. דגש על אסתטיקה, דיוק ותוצאות טבעיות.
+              קוסמטיקאית ומאפרת מקצועית. דגש על אסתטיקה, דיוק ותוצאות טבעיות. טיפולי אקנה, פיגמנטציה, אנטי אייג'ינג וטיפולי זוהר.
             </p>
           </div>
 
@@ -30,6 +30,7 @@ export default function Footer() {
             <h4 className="font-bold text-lg mb-6">ניווט מהיר</h4>
             <ul className="space-y-4 text-white/70">
               <li><Link to="/" className="hover:text-primary transition-colors">ראשי</Link></li>
+              <li><Link to="/about" className="hover:text-primary transition-colors">אודות</Link></li>
               <li><Link to="/treatments" className="hover:text-primary transition-colors">טיפולים</Link></li>
               <li><Link to="/products" className="hover:text-primary transition-colors">מוצרים</Link></li>
               <li><Link to="/contact" className="hover:text-primary transition-colors">יצירת קשר</Link></li>
@@ -46,7 +47,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-white/5 text-center text-white/40 text-sm">
-          <p>© {new Date().getFullYear()} SHAKED TAYEB. כל הזכויות שמורות.</p>
+          <p>© {new Date().getFullYear()} POLET BEAUTY. כל הזכויות שמורות.</p>
         </div>
       </div>
     </footer>

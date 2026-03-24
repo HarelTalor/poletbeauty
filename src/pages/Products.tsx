@@ -51,7 +51,7 @@ export default function Products() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-bold tracking-widest uppercase mb-4">
             <ShoppingBag size={16} />
-            SHAKED TAYEB PRODUCTS
+            POLET BEAUTY PRODUCTS
           </div>
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary">חנות המוצרים</h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -99,7 +99,7 @@ export default function Products() {
                       <CardContent>
                         <p className="text-muted-foreground text-sm leading-relaxed mb-6">{product.desc}</p>
                         <Button className="w-full rounded-full gradient-brand shimmer shadow-sm" asChild>
-                          <a href={`https://wa.me/9725XXXXXXXX?text=היי שקד, אני מעוניינת לרכוש את המוצר: ${product.name} (${product.id})`}>
+                          <a href={`https://wa.me/9725XXXXXXXX?text=היי פולט, אני מעוניינת לרכוש את המוצר: ${product.name} (${product.id})`}>
                             רכישה בווצאפ
                           </a>
                         </Button>

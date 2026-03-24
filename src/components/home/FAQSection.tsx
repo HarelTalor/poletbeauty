@@ -25,7 +25,7 @@ export default function FAQSection() {
     <section className="py-24 bg-[#FCF9F7]">
       <div className="container px-4 mx-auto max-w-3xl">
         <div className="text-center mb-16">
-          <span className="text-accent font-semibold tracking-wider uppercase text-sm mb-4 block">מרכז מידע</span>
+          <span className="text-primary/70 font-semibold tracking-wider uppercase text-sm mb-4 block">מרכז מידע</span>
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary mb-6">שאלות נפוצות</h2>
           <p className="text-slate-600 text-lg max-w-xl mx-auto">כל מה שחשוב לך לדעת כדי להרגיש בטוחה ונינוחה לפני הטיפול הראשון שלך</p>
         </div>

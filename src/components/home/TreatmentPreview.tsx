@@ -59,8 +59,8 @@ export default function TreatmentPreview() {
           className="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto md:overflow-visible pb-8 md:pb-0 hide-scrollbar snap-x snap-mandatory"
         >
           {treatmentPreviews.map((treatment, index) => (
-            <motion.div key={index} variants={item} className="flex-shrink-0 w-[85vw] md:w-full snap-center">
-              <Card className="h-full border-none shadow-lg rounded-3xl overflow-hidden glass-card hover:shadow-2xl transition-shadow duration-300">
+            <motion.div key={index} variants={item} className="flex-shrink-0 w-[85vw] md:w-full snap-center py-4">
+              <Card className="h-full border border-primary/5 shadow-md rounded-[2.5rem] overflow-hidden bg-white/40 backdrop-blur-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img 
                     src={treatment.image} 

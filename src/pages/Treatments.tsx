@@ -75,7 +75,7 @@ export default function Treatments() {
                       <CardContent>
                         <p className="text-muted-foreground leading-relaxed min-h-[60px]">{treatment.desc}</p>
                         <Button variant="link" className="p-0 h-auto mt-6 text-primary font-bold group-hover:translate-x-[-4px] transition-transform" asChild>
-                          <a href={`https://wa.me/9725XXXXXXXX?text=היי שקד, אשמח לקבוע תור ל${treatment.name}`}>
+                          <a href={`https://wa.me/9725XXXXXXXX?text=היי פולט, אשמח לקבוע תור ל${treatment.name}`}>
                             קבעי תור עכשיו ←
                           </a>
                         </Button>

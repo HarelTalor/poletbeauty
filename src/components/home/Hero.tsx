@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img 
           src="/images/hero_bg_new.png" 
-          alt="Shaked Tayeb Luxury Aesthetic" 
+          alt="Polet Beauty Luxury Aesthetic" 
           className="w-full h-full object-cover object-center scale-105 blur-[2px]"
         />
         {/* Lighter Professional Overlay */}
@@ -24,14 +24,14 @@ export default function Hero() {
           <div className="relative animate-in fade-in zoom-in duration-1000 w-full flex flex-col items-center mt-[-40px] md:mt-0">
              <img 
                 src="/images/logo_circle.png" 
-                alt="Shaked Tayeb Logo" 
+                alt="Polet Beauty Logo" 
                 className="w-48 h-48 md:w-64 md:h-64 object-contain mb-6 drop-shadow-[0_0_30px_rgba(255,255,255,0.3)]" 
              />
           </div>
 
           <div className="space-y-4 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs md:text-sm font-bold tracking-[0.2em] uppercase">
-              קוסמטיקאית מוסמכת
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-[10px] md:text-sm font-bold tracking-[0.1em] uppercase text-center">
+              קוסמטיקאית ומאפרת מקצועית
             </div>
 
             <h1 className="text-3xl md:text-6xl font-serif font-bold tracking-tight leading-tight drop-shadow-2xl">

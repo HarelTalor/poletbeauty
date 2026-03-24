@@ -69,7 +69,7 @@ export default function AIConsultant() {
       <div className="container px-4 mx-auto max-w-4xl relative">
         <div className="flex items-center justify-center gap-3 mb-8">
           <Sparkles className="text-primary" size={24} />
-          <h2 className="text-2xl md:text-4xl font-serif font-bold text-primary">היועצת האישית של נטלי ברמי</h2>
+          <h2 className="text-2xl md:text-4xl font-serif font-bold text-primary">היועצת האישית של פולט ביוטי</h2>
           <Sparkles className="text-primary" size={24} />
         </div>
 
@@ -116,7 +116,7 @@ export default function AIConsultant() {
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
                   <Button size="lg" className="rounded-full px-10 h-14 text-lg font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform" asChild>
-                    <a href={`https://wa.me/972500000000?text=היי נטלי, היועצת בוט המליצה לי על ${getRecommendation().title}, אשמח לשמוע עוד.`} target="_blank" rel="noreferrer">
+                    <a href={`https://wa.me/9725XXXXXXXX?text=היי פולט, היועצת בוט המליצה לי על ${getRecommendation().title}, אשמח לשמוע עוד.`} target="_blank" rel="noreferrer">
                       דברי איתי על זה בוואטסאפ
                     </a>
                   </Button>

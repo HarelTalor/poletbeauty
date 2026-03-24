@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg">אינסטגרם</h3>
-                  <a href="https://www.instagram.com/shaked.tayeb/" className="text-accent underline-offset-4 hover:underline">@shaked.tayeb</a>
+                  <a href="https://www.instagram.com/polet.beauty/" className="text-accent underline-offset-4 hover:underline">@polet.beauty</a>
                 </div>
               </div>
             </div>

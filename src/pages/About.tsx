@@ -27,7 +27,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="text-center mb-20 space-y-4"
           >
-            <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary">אודות שקד טייב</h1>
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary">אודות פולט ביוטי</h1>
             <div className="w-24 h-1 gradient-brand mx-auto rounded-full" />
             <p className="text-muted-foreground text-xl max-w-2xl mx-auto pt-4 leading-relaxed">
               הסיפור מאחורי הקליניקה, הגישה המקצועית והמחויבות למצוינות בכל פרט.
@@ -43,7 +43,7 @@ export default function About() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-white/20">
                 <img 
                   src="/images/about_portrait.jpg" 
-                  alt="שקד טייב" 
+                  alt="פולט ביוטי" 
                   className="w-full h-full object-cover aspect-[4/5]"
                 />
               </div>
@@ -55,10 +55,10 @@ export default function About() {
               <h2 className="text-3xl font-serif font-bold text-primary border-r-4 border-accent pr-6">החזון המקצועי</h2>
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  [טקסט דמה: כאן יופיע סיפורה של שקד טייב, הדרך המקצועית שהחלה לפני שנים וההתמחות בתחום הקוסמטיקה והמיקרופיגמנטציה. הטקסט ידגיש את החשיבות של התאמה אישית לכל לקוחה.]
+                  [טקסט דמה: כאן יופיע סיפורה של פולט ביוטי, הדרך המקצועית שהחלה לפני שנים וההתמחות בתחום הקוסמטיקה והמיקרופיגמנטציה. הטקסט ידגיש את החשיבות של התאמה אישית לכל לקוחה.]
                 </p>
                 <p>
-                  [טקסט דמה נוסף: פירוט על הטכנולוגיות המתקדמות ביותר ששקד משלבת בעבודתה, הדיוק הכירורגי והשאיפה לתוצאות טבעיות ומחמיאות.]
+                  [טקסט דמה נוסף: פירוט על הטכנולוגיות המתקדמות ביותר שפולט משלבת בעבודתה, הדיוק הכירורגי והשאיפה לתוצאות טבעיות ומחמיאות.]
                 </p>
                 <div className="grid grid-cols-2 gap-6 pt-6">
                   <div className="space-y-2">
